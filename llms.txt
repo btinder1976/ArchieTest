@@ -1,0 +1,22 @@
+# Archie My Kuya
+
+Archie My Kuya is a science education website for Archie, a biology teacher interested in AI and welding. The website shares biology lessons, lab ideas, science explanations, AI learning experiments, welding-related applied science, and community questions.
+
+## Main topics
+
+- Biology education
+- Cell biology
+- Ecology
+- Lab skills
+- Science teaching
+- AI for teachers and students
+- Welding as applied science
+- STEM learning
+
+## Site purpose
+
+The purpose of this site is to make science easier to understand, more visual, and more accessible for students, parents, teachers, and lifelong learners around the world.
+
+## Content editing
+
+Editable content is stored in `assets/content.js`. The visual layout is in `index.html` and `styles.css`.
