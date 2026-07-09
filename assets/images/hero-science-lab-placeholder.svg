@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Science lab placeholder image</title>
+  <desc id="desc">A dark science themed placeholder with DNA, molecules, AI grid, and welding sparks.</desc>
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#1b8ea3"/>
+      <stop offset="0.45" stop-color="#0d1b2a"/>
+      <stop offset="1" stop-color="#03070d"/>
+    </radialGradient>
+    <linearGradient id="dna" x1="0" x2="1">
+      <stop offset="0" stop-color="#3df2ff"/>
+      <stop offset="1" stop-color="#8dff78"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M120 0v630M240 0v630M360 0v630M480 0v630M600 0v630M720 0v630M840 0v630M960 0v630M1080 0v630"/>
+  </g>
+  <g filter="url(#glow)" fill="none" stroke="url(#dna)" stroke-width="8" stroke-linecap="round">
+    <path d="M185 110c140 80 140 330 0 410"/>
+    <path d="M385 110c-140 80-140 330 0 410"/>
+    <path d="M220 170h130M205 240h160M205 320h160M220 400h130M250 480h70" stroke-width="5"/>
+  </g>
+  <g transform="translate(635 125)" filter="url(#glow)">
+    <circle cx="160" cy="160" r="118" fill="none" stroke="#3df2ff" stroke-width="5" opacity=".75"/>
+    <ellipse cx="160" cy="160" rx="180" ry="58" fill="none" stroke="#8dff78" stroke-width="4" opacity=".75" transform="rotate(28 160 160)"/>
+    <ellipse cx="160" cy="160" rx="180" ry="58" fill="none" stroke="#ffd166" stroke-width="4" opacity=".75" transform="rotate(-32 160 160)"/>
+    <circle cx="160" cy="160" r="46" fill="#ff5c8a" opacity=".86"/>
+  </g>
+  <g fill="#ffd166" filter="url(#glow)">
+    <circle cx="985" cy="465" r="5"/><circle cx="1035" cy="425" r="4"/><circle cx="930" cy="395" r="3"/><circle cx="1080" cy="505" r="7"/>
+    <path d="M965 492l95-60M910 448l140 50" stroke="#ffd166" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="80" y="575" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#f2fbff">Archie My Kuya</text>
+  <text x="82" y="612" font-family="Arial, sans-serif" font-size="22" fill="#abc7d8">Biology • AI • Welding • Science for Everyone</text>
+</svg>
