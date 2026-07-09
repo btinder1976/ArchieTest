@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Archie My Kuya shares biology lessons, science stories, AI curiosity, welding projects, and interactive learning resources for students and lifelong learners." />
+  <meta name="keywords" content="Archie My Kuya, biology teacher, science education, AI learning, welding, STEM, biology lessons" />
+  <meta property="og:title" content="Archie My Kuya | Science, AI & Welding" />
+  <meta property="og:description" content="An interactive science-themed learning website for biology, AI curiosity, welding projects, and community questions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/hero-science-lab-placeholder.svg" />
+  <title>Archie My Kuya | Science, AI & Welding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="molecule-field" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Archie My Kuya home">
+      <span class="brand-mark">A</span>
+      <span>
+        <strong>Archie My Kuya</strong>
+        <small>Science • AI • Welding</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#lessons">Lessons</a>
+      <a href="#lab">Virtual Lab</a>
+      <a href="#ai-welding">AI + Welding</a>
+      <a href="#interact">Interact</a>
+      <a href="#updates">Updates</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Biology teacher. Curious builder. Lifelong learner.</p>
+        <h1>Science lessons that feel alive, visual, and worth sharing.</h1>
+        <p class="hero-text">Archie My Kuya is a home for biology stories, classroom-ready explanations, AI experiments, welding curiosity, and conversations with students around the world.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#lessons">Explore lessons</a>
+          <a class="button ghost" href="#interact">Ask Archie</a>
+        </div>
+        <div class="science-stats" aria-label="Website highlights">
+          <div><strong data-count="42">0</strong><span>Science topics</span></div>
+          <div><strong data-count="12">0</strong><span>Lab ideas</span></div>
+          <div><strong data-count="3">0</strong><span>Big passions</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit-card">
+          <div class="atom-orbit orbit-one"></div>
+          <div class="atom-orbit orbit-two"></div>
+          <div class="nucleus">DNA</div>
+        </div>
+        <div class="floating-card microscope-card">🔬<span>Biology</span></div>
+        <div class="floating-card ai-card">🤖<span>AI Curiosity</span></div>
+        <div class="floating-card weld-card">⚙️<span>Welding</span></div>
+      </div>
+    </section>
+
+    <section class="mission reveal">
+      <div>
+        <p class="eyebrow">The mission</p>
+        <h2>Make science understandable, exciting, and useful.</h2>
+      </div>
+      <p>Archie can use this site as his living science notebook: publish lessons, answer questions, share discoveries, post classroom resources, and invite people into the wonder of biology and technology.</p>
+    </section>
+
+    <section id="lessons" class="content-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Learning library</p>
+        <h2>Featured science paths</h2>
+        <p>Each card can become a lesson page, video post, handout, or interactive activity.</p>
+      </div>
+      <div class="card-grid" id="lessonCards"></div>
+    </section>
+
+    <section id="lab" class="content-section lab-section">
+      <div class="lab-panel reveal">
+        <div>
+          <p class="eyebrow">Virtual lab</p>
+          <h2>Build a hands-on learning hub.</h2>
+          <p>Use this area for lab activities, microscope images, experiment writeups, quizzes, downloadable worksheets, and student-friendly explanations.</p>
+        </div>
+        <div class="lab-tools">
+          <button data-lab="cell">Cell Explorer</button>
+          <button data-lab="eco">Ecosystem Web</button>
+          <button data-lab="dna">DNA Decoder</button>
+        </div>
+      </div>
+      <article class="lab-display reveal" id="labDisplay">
+        <h3>Cell Explorer</h3>
+        <p>Start with a living cell. Compare the nucleus, mitochondria, membrane, and cytoplasm with a city, a factory, and a school campus.</p>
+      </article>
+    </section>
+
+    <section id="ai-welding" class="content-section split-section">
+      <div class="image-placeholder reveal">
+        <div class="placeholder-icon">🧪</div>
+        <p>Placeholder for generated image: Archie in a futuristic biology lab with DNA, microscope, AI hologram, and welding sparks.</p>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Beyond the classroom</p>
+        <h2>Where biology meets AI and welding.</h2>
+        <p>Archie’s interests can connect into a unique voice: the structure of living things, the intelligence of machines, and the craftsmanship of metalwork.</p>
+        <ul class="feature-list">
+          <li><span>🧬</span><strong>Biology explained visually</strong><p>Cells, genetics, ecology, anatomy, evolution, and lab skills.</p></li>
+          <li><span>🤖</span><strong>AI experiments for teachers</strong><p>Prompts, lesson helpers, study guides, quiz builders, and ethical AI discussions.</p></li>
+          <li><span>🔥</span><strong>Welding as applied science</strong><p>Heat, metals, safety, design, tools, and real-world fabrication.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="interact" class="content-section interact-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Community space</p>
+        <h2>Places for people to interact</h2>
+        <p>These are built as front-end placeholders now and can later connect to Formspree, Netlify Forms, Firebase, Supabase, or a custom backend.</p>
+      </div>
+      <div class="interaction-grid">
+        <form class="question-form reveal" id="questionForm">
+          <h3>Ask Archie a science question</h3>
+          <label>Name<input type="text" id="visitorName" placeholder="Your name" required /></label>
+          <label>Question<textarea id="visitorQuestion" placeholder="What science topic are you curious about?" required></textarea></label>
+          <button class="button primary" type="submit">Post question</button>
+          <p class="form-note">Demo mode: questions save in this browser until a backend is connected.</p>
+        </form>
+        <div class="question-board reveal">
+          <h3>Question board</h3>
+          <div id="questionList" class="question-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="updates" class="content-section updates-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Living notebook</p>
+        <h2>Latest updates</h2>
+        <p>Archie can edit these posts in <code>assets/content.js</code> without touching the layout.</p>
+      </div>
+      <div class="updates-grid" id="updatesGrid"></div>
+    </section>
+
+    <section class="cta reveal">
+      <div>
+        <p class="eyebrow">Ready for the next experiment?</p>
+        <h2>Generate the images, add Archie’s real lessons, and turn this into a world-class science hub.</h2>
+      </div>
+      <a class="button primary" href="mailto:hello@example.com?subject=Science%20Question%20for%20Archie">Contact Archie</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Archie My Kuya. Built for science education, curiosity, and community learning.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="assets/content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
